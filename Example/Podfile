@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DonRadio_Example' do
+  pod 'DonRadio', :path => '../'
+
+  target 'DonRadio_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
