@@ -1,0 +1,6 @@
+framework module DonRadio {
+  umbrella header "DonRadio-umbrella.h"
+
+  export *
+  module * { export * }
+}

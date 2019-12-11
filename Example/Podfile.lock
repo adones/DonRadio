@@ -1,0 +1,16 @@
+PODS:
+  - DonRadio (0.1.0)
+
+DEPENDENCIES:
+  - DonRadio (from `../`)
+
+EXTERNAL SOURCES:
+  DonRadio:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DonRadio: b5785d09d8fec1b53abd06bb1209b30b242555c1
+
+PODFILE CHECKSUM: 7855cb694d11d533e8aad3001c0d80f256ec830c
+
+COCOAPODS: 1.8.3

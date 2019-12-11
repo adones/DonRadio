@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B67FE1511ED06372422CC6DB99230C /* Pods-DonRadio_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9095D2A7849F44742ED7F2755302EEB4 /* Pods-DonRadio_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1367B95EE00A5FC7270FC2E142C177E5 /* Pods-DonRadio_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFD33193D729D452431505C1A1ED8D4 /* Pods-DonRadio_Example-dummy.m */; };
+		2D01749F3516CC1247236E8059ABFE56 /* DonRadio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AEB92666BDDA359E5E99F78723AC8FE /* DonRadio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60E9AD12758606240118DB9F3E7B8661 /* Pods-DonRadio_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B38C003AEE8ED0C030E9C6757A47AF6 /* Pods-DonRadio_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F1574B9B6FF647E5B4105D63D2C0F49 /* DonRadio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8127742023E9D8C105EC86662576CFFD /* DonRadio-dummy.m */; };
+		87173B563A69C3107AF3CC20607C0C2E /* Pods-DonRadio_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2412000CFFB33DDBEB4672EFAEF6AAF7 /* Pods-DonRadio_Tests-dummy.m */; };
+		AE3761B465B31CA39561343651CF88EE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E775AE624A6E9B0A255A87690906AA /* ReplaceMe.swift */; };
+		B1312087FA6B1299703278BFD97E72E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CC84EB762DA4A1FBFBD1BEB96DE602D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D3AF0CAFE1811E1011E33699B7F0EFC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11578855BB5454339CF8E93BE881EFB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21DE524CC1249212B966E8A8A95A197A;
+			remoteInfo = "Pods-DonRadio_Example";
+		};
+		23944415B1AD85E9B3913C309833F666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA661531D4577DD42E829753DE58F978;
+			remoteInfo = DonRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1835F192598E794BC676184E9249D61E /* Pods-DonRadio_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DonRadio_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2412000CFFB33DDBEB4672EFAEF6AAF7 /* Pods-DonRadio_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DonRadio_Tests-dummy.m"; sourceTree = "<group>"; };
+		2B38C003AEE8ED0C030E9C6757A47AF6 /* Pods-DonRadio_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DonRadio_Example-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		392BA8E96738F9919568C39D2A7B579D /* DonRadio.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DonRadio.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3AEB92666BDDA359E5E99F78723AC8FE /* DonRadio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DonRadio-umbrella.h"; sourceTree = "<group>"; };
+		3BA75548A91F914FDD154A3B3FEED82A /* DonRadio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DonRadio.modulemap; sourceTree = "<group>"; };
+		40B1F1A564BA0CFC83A4C4A52F66F10A /* DonRadio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DonRadio-Info.plist"; sourceTree = "<group>"; };
+		56A9EB492B0770ADBAD5A03461D634E7 /* Pods-DonRadio_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DonRadio_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		624222B1B8C81F136428EEF4883B2B20 /* DonRadio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DonRadio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6327FB04AB72F74977B36FBF47D39C59 /* Pods-DonRadio_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DonRadio_Example-Info.plist"; sourceTree = "<group>"; };
+		67E775AE624A6E9B0A255A87690906AA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DonRadio/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		6A8453D98E40463FC6BEA80DF0599B2E /* Pods-DonRadio_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DonRadio_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7D5B5DBFF1FE6BE2801DA0DB7E438BBD /* Pods-DonRadio_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DonRadio_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8127742023E9D8C105EC86662576CFFD /* DonRadio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DonRadio-dummy.m"; sourceTree = "<group>"; };
+		8E2DC99BE9F254DB228C3BDAD7B47C9A /* Pods-DonRadio_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DonRadio_Tests-Info.plist"; sourceTree = "<group>"; };
+		9095D2A7849F44742ED7F2755302EEB4 /* Pods-DonRadio_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DonRadio_Tests-umbrella.h"; sourceTree = "<group>"; };
+		936ED9EF770908E681AF60EC9BB00542 /* Pods-DonRadio_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DonRadio_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A533832333B7DAAA99C50D81AECC98CA /* DonRadio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DonRadio-prefix.pch"; sourceTree = "<group>"; };
+		B9CFE71A0FC24D659A607FB05076E941 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BCFD33193D729D452431505C1A1ED8D4 /* Pods-DonRadio_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DonRadio_Example-dummy.m"; sourceTree = "<group>"; };
+		C54721D58A460833FB317E80F9651AEF /* Pods-DonRadio_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DonRadio_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C70666C9AA1254B0044A6C2306B83113 /* Pods-DonRadio_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DonRadio_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D474DD586C983F42BF67FBF71000DDE9 /* Pods-DonRadio_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DonRadio_Example.modulemap"; sourceTree = "<group>"; };
+		D663D4CD64855D33CFC434170197BD2E /* Pods-DonRadio_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DonRadio_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DAD6FE267D7889DFE1552B1E1654B0C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DCDEB00A1330829C8C936589F03611CB /* Pods-DonRadio_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DonRadio_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3B5B91253B3816859A8193C4A0EB467 /* Pods-DonRadio_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DonRadio_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E3F3E06CF43CC60E90F0A4DBB6373153 /* Pods_DonRadio_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonRadio_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E827C808E1AFC1CD744D1548BB1D0CE2 /* DonRadio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DonRadio.xcconfig; sourceTree = "<group>"; };
+		FA87268524130F0E289FEC291D486F1B /* Pods_DonRadio_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonRadio_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51ED642AE4BF3914D161C4443B28C7E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1312087FA6B1299703278BFD97E72E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA069C3350F23A97B013E332F867083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC84EB762DA4A1FBFBD1BEB96DE602D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E629B56C64C71EE53C5E61B37EA381A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3AF0CAFE1811E1011E33699B7F0EFC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05793E66D67D52E89095CAB3B4166549 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8826EDFA932EB14EBA830A8B8776D954 /* DonRadio */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0EC33F801DA65488D8160A60B5B89263 /* Pods-DonRadio_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				936ED9EF770908E681AF60EC9BB00542 /* Pods-DonRadio_Tests.modulemap */,
+				C54721D58A460833FB317E80F9651AEF /* Pods-DonRadio_Tests-acknowledgements.markdown */,
+				DCDEB00A1330829C8C936589F03611CB /* Pods-DonRadio_Tests-acknowledgements.plist */,
+				2412000CFFB33DDBEB4672EFAEF6AAF7 /* Pods-DonRadio_Tests-dummy.m */,
+				8E2DC99BE9F254DB228C3BDAD7B47C9A /* Pods-DonRadio_Tests-Info.plist */,
+				9095D2A7849F44742ED7F2755302EEB4 /* Pods-DonRadio_Tests-umbrella.h */,
+				C70666C9AA1254B0044A6C2306B83113 /* Pods-DonRadio_Tests.debug.xcconfig */,
+				7D5B5DBFF1FE6BE2801DA0DB7E438BBD /* Pods-DonRadio_Tests.release.xcconfig */,
+			);
+			name = "Pods-DonRadio_Tests";
+			path = "Target Support Files/Pods-DonRadio_Tests";
+			sourceTree = "<group>";
+		};
+		4A4E0C1D05406571D1BBFD47F20A590E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BA75548A91F914FDD154A3B3FEED82A /* DonRadio.modulemap */,
+				E827C808E1AFC1CD744D1548BB1D0CE2 /* DonRadio.xcconfig */,
+				8127742023E9D8C105EC86662576CFFD /* DonRadio-dummy.m */,
+				40B1F1A564BA0CFC83A4C4A52F66F10A /* DonRadio-Info.plist */,
+				A533832333B7DAAA99C50D81AECC98CA /* DonRadio-prefix.pch */,
+				3AEB92666BDDA359E5E99F78723AC8FE /* DonRadio-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DonRadio";
+			sourceTree = "<group>";
+		};
+		84A617F72163DE42C6B68E86EB0029B3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B26CEF11B38228BACD5A105D61B85E4C /* Pods-DonRadio_Example */,
+				0EC33F801DA65488D8160A60B5B89263 /* Pods-DonRadio_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8826EDFA932EB14EBA830A8B8776D954 /* DonRadio */ = {
+			isa = PBXGroup;
+			children = (
+				67E775AE624A6E9B0A255A87690906AA /* ReplaceMe.swift */,
+				BAAE0F4BECFDF10A52FC7D72DFB6C11E /* Pod */,
+				4A4E0C1D05406571D1BBFD47F20A590E /* Support Files */,
+			);
+			name = DonRadio;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B26CEF11B38228BACD5A105D61B85E4C /* Pods-DonRadio_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D474DD586C983F42BF67FBF71000DDE9 /* Pods-DonRadio_Example.modulemap */,
+				1835F192598E794BC676184E9249D61E /* Pods-DonRadio_Example-acknowledgements.markdown */,
+				D663D4CD64855D33CFC434170197BD2E /* Pods-DonRadio_Example-acknowledgements.plist */,
+				BCFD33193D729D452431505C1A1ED8D4 /* Pods-DonRadio_Example-dummy.m */,
+				E3B5B91253B3816859A8193C4A0EB467 /* Pods-DonRadio_Example-frameworks.sh */,
+				6327FB04AB72F74977B36FBF47D39C59 /* Pods-DonRadio_Example-Info.plist */,
+				2B38C003AEE8ED0C030E9C6757A47AF6 /* Pods-DonRadio_Example-umbrella.h */,
+				56A9EB492B0770ADBAD5A03461D634E7 /* Pods-DonRadio_Example.debug.xcconfig */,
+				6A8453D98E40463FC6BEA80DF0599B2E /* Pods-DonRadio_Example.release.xcconfig */,
+			);
+			name = "Pods-DonRadio_Example";
+			path = "Target Support Files/Pods-DonRadio_Example";
+			sourceTree = "<group>";
+		};
+		BAAE0F4BECFDF10A52FC7D72DFB6C11E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				392BA8E96738F9919568C39D2A7B579D /* DonRadio.podspec */,
+				DAD6FE267D7889DFE1552B1E1654B0C8 /* LICENSE */,
+				B9CFE71A0FC24D659A607FB05076E941 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C6BD399DB0DF1F730B3950525BBC2642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				624222B1B8C81F136428EEF4883B2B20 /* DonRadio.framework */,
+				E3F3E06CF43CC60E90F0A4DBB6373153 /* Pods_DonRadio_Example.framework */,
+				FA87268524130F0E289FEC291D486F1B /* Pods_DonRadio_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				05793E66D67D52E89095CAB3B4166549 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C6BD399DB0DF1F730B3950525BBC2642 /* Products */,
+				84A617F72163DE42C6B68E86EB0029B3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BBAF49CEE9FD596290B69930AC67D8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D01749F3516CC1247236E8059ABFE56 /* DonRadio-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D997E131DC0FEEE63D922F5BDB9358A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E9AD12758606240118DB9F3E7B8661 /* Pods-DonRadio_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB50BA42EFDB03A116CC4A3DFF25B57 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B67FE1511ED06372422CC6DB99230C /* Pods-DonRadio_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21DE524CC1249212B966E8A8A95A197A /* Pods-DonRadio_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042053047200743FADD86377F55AF64F /* Build configuration list for PBXNativeTarget "Pods-DonRadio_Example" */;
+			buildPhases = (
+				6D997E131DC0FEEE63D922F5BDB9358A /* Headers */,
+				A59A6DD1C8050A2E3BEB67B4E6083B6A /* Sources */,
+				6E629B56C64C71EE53C5E61B37EA381A /* Frameworks */,
+				9700FFA765A99D5511D9DB3DC85051F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F34BCE0EB427E4BA12188EC05359E816 /* PBXTargetDependency */,
+			);
+			name = "Pods-DonRadio_Example";
+			productName = "Pods-DonRadio_Example";
+			productReference = E3F3E06CF43CC60E90F0A4DBB6373153 /* Pods_DonRadio_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA661531D4577DD42E829753DE58F978 /* DonRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35874CAC8C26F9FC67E43924660F3FD9 /* Build configuration list for PBXNativeTarget "DonRadio" */;
+			buildPhases = (
+				0BBAF49CEE9FD596290B69930AC67D8A /* Headers */,
+				DF8F53D4810DFC184991E84E8232887A /* Sources */,
+				51ED642AE4BF3914D161C4443B28C7E8 /* Frameworks */,
+				C5195DFA738C10C4EBCEF8A0B3750477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DonRadio;
+			productName = DonRadio;
+			productReference = 624222B1B8C81F136428EEF4883B2B20 /* DonRadio.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1E8E5A535D244B26F140ADAA2B4B52D /* Pods-DonRadio_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E66F2F676E6B26A6F8C7441028CDD3DB /* Build configuration list for PBXNativeTarget "Pods-DonRadio_Tests" */;
+			buildPhases = (
+				8DB50BA42EFDB03A116CC4A3DFF25B57 /* Headers */,
+				B2C8354653FBDAB8B8E73F9D82A98147 /* Sources */,
+				6BA069C3350F23A97B013E332F867083 /* Frameworks */,
+				4A11E04197063F9D609FCF70778B3911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6168319C33F2B895CBA5AC9295CDD626 /* PBXTargetDependency */,
+			);
+			name = "Pods-DonRadio_Tests";
+			productName = "Pods-DonRadio_Tests";
+			productReference = FA87268524130F0E289FEC291D486F1B /* Pods_DonRadio_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					CA661531D4577DD42E829753DE58F978 = {
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C6BD399DB0DF1F730B3950525BBC2642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA661531D4577DD42E829753DE58F978 /* DonRadio */,
+				21DE524CC1249212B966E8A8A95A197A /* Pods-DonRadio_Example */,
+				E1E8E5A535D244B26F140ADAA2B4B52D /* Pods-DonRadio_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A11E04197063F9D609FCF70778B3911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9700FFA765A99D5511D9DB3DC85051F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5195DFA738C10C4EBCEF8A0B3750477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A59A6DD1C8050A2E3BEB67B4E6083B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1367B95EE00A5FC7270FC2E142C177E5 /* Pods-DonRadio_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C8354653FBDAB8B8E73F9D82A98147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87173B563A69C3107AF3CC20607C0C2E /* Pods-DonRadio_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8F53D4810DFC184991E84E8232887A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1574B9B6FF647E5B4105D63D2C0F49 /* DonRadio-dummy.m in Sources */,
+				AE3761B465B31CA39561343651CF88EE /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6168319C33F2B895CBA5AC9295CDD626 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DonRadio_Example";
+			target = 21DE524CC1249212B966E8A8A95A197A /* Pods-DonRadio_Example */;
+			targetProxy = 11578855BB5454339CF8E93BE881EFB5 /* PBXContainerItemProxy */;
+		};
+		F34BCE0EB427E4BA12188EC05359E816 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DonRadio;
+			target = CA661531D4577DD42E829753DE58F978 /* DonRadio */;
+			targetProxy = 23944415B1AD85E9B3913C309833F666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0493485D8F1AD5FE256A9353BD143B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E827C808E1AFC1CD744D1548BB1D0CE2 /* DonRadio.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DonRadio/DonRadio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DonRadio/DonRadio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DonRadio/DonRadio.modulemap";
+				PRODUCT_MODULE_NAME = DonRadio;
+				PRODUCT_NAME = DonRadio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6203BABA228BDE1D32FE5850F57AF580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C70666C9AA1254B0044A6C2306B83113 /* Pods-DonRadio_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DonRadio_Tests/Pods-DonRadio_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DonRadio_Tests/Pods-DonRadio_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B59A0B8F8E85C103A93C2EB8B81AEE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D5B5DBFF1FE6BE2801DA0DB7E438BBD /* Pods-DonRadio_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DonRadio_Tests/Pods-DonRadio_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DonRadio_Tests/Pods-DonRadio_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F564751C3E8103542C4B55590D6062B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E827C808E1AFC1CD744D1548BB1D0CE2 /* DonRadio.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DonRadio/DonRadio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DonRadio/DonRadio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DonRadio/DonRadio.modulemap";
+				PRODUCT_MODULE_NAME = DonRadio;
+				PRODUCT_NAME = DonRadio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA5BE9DE8391DBABB01C00206406A666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A9EB492B0770ADBAD5A03461D634E7 /* Pods-DonRadio_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DonRadio_Example/Pods-DonRadio_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DonRadio_Example/Pods-DonRadio_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C4EFB83F2BE71251386FFB6B69466148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A8453D98E40463FC6BEA80DF0599B2E /* Pods-DonRadio_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DonRadio_Example/Pods-DonRadio_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DonRadio_Example/Pods-DonRadio_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042053047200743FADD86377F55AF64F /* Build configuration list for PBXNativeTarget "Pods-DonRadio_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5BE9DE8391DBABB01C00206406A666 /* Debug */,
+				C4EFB83F2BE71251386FFB6B69466148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35874CAC8C26F9FC67E43924660F3FD9 /* Build configuration list for PBXNativeTarget "DonRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0493485D8F1AD5FE256A9353BD143B34 /* Debug */,
+				8F564751C3E8103542C4B55590D6062B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E66F2F676E6B26A6F8C7441028CDD3DB /* Build configuration list for PBXNativeTarget "Pods-DonRadio_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6203BABA228BDE1D32FE5850F57AF580 /* Debug */,
+				7B59A0B8F8E85C103A93C2EB8B81AEE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
